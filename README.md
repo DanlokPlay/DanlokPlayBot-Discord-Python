@@ -10,8 +10,6 @@ tags:
 
 This example starts a Discord bot using [discord.py](https://discordpy.readthedocs.io/en/stable/).
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/PxM3nl)
-
 ## ✨ Features
 
 - Python
@@ -24,4 +22,4 @@ This example starts a Discord bot using [discord.py](https://discordpy.readthedo
 
 ## 📝 Notes
 
-This is a basic bot with the prefix `!`, more information can be founded at their [offical documentation](https://discordpy.readthedocs.io/en/stable/api.html).
+This is a basic bot with the prefix `/`, more information can be founded at their [offical documentation](https://discordpy.readthedocs.io/en/stable/api.html).
