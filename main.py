@@ -71,7 +71,7 @@ async def moneta(interaction: discord.Interaction):
         await interaction.response.send_message(f"{interaction.user.mention}, оРешка!", ephemeral=False)
 
 
-############### ###############  Выдача роли по эмодзи ############### ############### 
+############### ВЫДАЧА РОЛИ ПО ЭМОДЗИ
 @client.event
 async def reaction_add(payload):
     msg_id = payload.message_id
