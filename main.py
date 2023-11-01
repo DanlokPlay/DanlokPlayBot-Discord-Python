@@ -170,9 +170,6 @@ async def on_raw_reaction_remove(payload):
                     await member.add_roles(role1)
 
 
-@client.tree.error
-async def on_app_command_error(interaction: discord.Interaction, error: discord.app_commands.AppCommandError) -> None:
-	return
 
 #load_dotenv()
 #keep_alive()
